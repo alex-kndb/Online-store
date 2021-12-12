@@ -1,0 +1,32 @@
+[
+  {
+    "id_product": 111,
+    "product_name": "Man's jacket",
+    "price": 150
+  },
+  {
+    "id_product": 122,
+    "product_name": "Woman's suit",
+    "price": 120
+  },
+  {
+    "id_product": 135,
+    "product_name": "Man's hoodie",
+    "price": 100
+  },
+  {
+    "id_product": 218,
+    "product_name": "Man's T-shirt",
+    "price": 50
+  },
+  {
+    "id_product": 225,
+    "product_name": "Woman's blazer",
+    "price": 110
+  },
+  {
+    "id_product": 269,
+    "product_name": "Woman's blouse",
+    "price": 90
+  }
+]

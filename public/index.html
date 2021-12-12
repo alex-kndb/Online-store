@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="normalize.css"> -->
+    <link rel="stylesheet" href="style.css">
+    <title>Adaptive</title>
+</head>
+
+<body>
+    <div id="app">
+        <header class="header">
+            <div class="header__wrapper container">
+                <div class="left-header">
+                    <a class="header__logo logo" href="index.html" class="logo"><img src="img/logo.svg" alt="logo"
+                            width="44px"></a>
+
+                    <search></search>
+
+                </div>
+                <div class="right-header">
+                    <details class="menu">
+                        <summary class="menu__summary-btn btn"><img src="img/burger.svg" width="32px" alt="menu">
+                        </summary>
+                        <form action="#" class="menu__form">
+                            <div class="menu__btn-wrapper">
+                                <button class="menu__btn btn"><img src="img/x.svg" width="12px" alt="x"></button>
+                            </div>
+                            <h3 class="menu__header">Menu</h3>
+                            <a href="#" class="menu__title">Man</a>
+                            <ul class="menu__list">
+                                <li class="menu__li"><a href="#" class="menu__link">Accessories</a></li>
+                                <li class="menu__li"><a href="#" class="menu__link">Jackets & Coats</a></li>
+                                <li class="menu__li"><a href="#" class="menu__link">Polos</a></li>
+                                <li class="menu__li"><a href="#" class="menu__link">T-Shirts</a></li>
+                                <li class="menu__li"><a href="#" class="menu__link">Shirts</a></li>
+                            </ul>
+                            <a href="#" class="menu__title">Women</a>
+                            <ul class="menu__list">
+                                <li class="menu__li"><a href="#" class="menu__link">Accessories</a></li>
+                                <li class="menu__li"><a href="#" class="menu__link">Jackets & Coats</a></li>
+                                <li class="menu__li"><a href="#" class="menu__link">Polos</a></li>
+                                <li class="menu__li"><a href="#" class="menu__link">T-Shirts</a></li>
+                                <li class="menu__li"><a href="#" class="menu__link">Shirts</a></li>
+                            </ul>
+                            <a href="#" class="menu__title">Kids</a>
+                            <ul class="menu__list">
+                                <li class="menu__li"><a href="#" class="menu__link">Accessories</a></li>
+                                <li class="menu__li"><a href="#" class="menu__link">Jackets & Coats</a></li>
+                                <li class="menu__li"><a href="#" class="menu__link">Polos</a></li>
+                                <li class="menu__li"><a href="#" class="menu__link">T-Shirts</a></li>
+                                <li class="menu__li"><a href="#" class="menu__link">Shirts</a></li>
+                            </ul>
+                        </form>
+
+                    </details>
+                    <a href="#" class="acc btn"><img src="img/acc.svg" width="29px" alt="acc"></a>
+                    <cart ref="cart"></cart>
+                </div>
+            </div>
+        </header>
+
+        <top-banner></top-banner>
+        <offers></offers>
+        <products ref="products"></products>
+        <advantages></advantages>
+        <client></client>
+        <footer-comp></footer-comp>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="js/ProductComp.js"></script>
+    <script src="js/CartComp.js"></script>
+    <script src="js/FilterComp.js"></script>
+    <script src="js/othersComp.js"></script>
+    <script src="js/main.js"></script>
+
+
+
+</body>
+
+</html>
